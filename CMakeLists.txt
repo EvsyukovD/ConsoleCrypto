@@ -27,8 +27,7 @@ add_executable (ConCrypto
 "cipher.cpp"
 "crypto.cpp"
 "hash.cpp"
-"sign.cpp"
- "main.cpp")
+"sign.cpp")
 
 target_link_libraries(ConCrypto PRIVATE bcrypt shlwapi crypt32)
 
